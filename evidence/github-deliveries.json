@@ -1,0 +1,24 @@
+[
+  {
+    "id": 3848347090394628096,
+    "guid": "588d3e46-c834-11f1-9c3b-1c24cc876f78",
+    "delivered_at": "2026-10-15T01:04:20.033Z",
+    "redelivery": false,
+    "duration": 1.95,
+    "status": "OK",
+    "status_code": 200,
+    "event": "push",
+    "action": null
+  },
+  {
+    "id": 3848346632955363328,
+    "guid": "d6e009a0-c833-11f1-87a2-73b13aa5a23d",
+    "delivered_at": "2026-10-15T01:00:47.08Z",
+    "redelivery": false,
+    "duration": 6.56,
+    "status": "OK",
+    "status_code": 200,
+    "event": "ping",
+    "action": null
+  }
+]

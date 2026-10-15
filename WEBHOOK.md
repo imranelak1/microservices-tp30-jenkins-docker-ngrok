@@ -6,3 +6,5 @@
  4. Lancer un premier build manuel, puis pousser une modification. Vérifier la livraison HTTP 200 dans GitHub et le nouveau build Jenkins causé par le push.
 
  L'URL gratuite peut changer après un redémarrage. Mettre alors le webhook à jour. Ne pas exposer un Jenkins sans authentification.
+
+Le push de validation a déclenché le build n°2, terminé avec succès. Après ce test, le tunnel a été fermé et le webhook désactivé. Pour refaire la démonstration, redémarrer Jenkins et ngrok, puis actualiser et réactiver le webhook.

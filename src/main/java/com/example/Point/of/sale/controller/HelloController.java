@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/** Routes du projet de d?part utilis?es pour v?rifier le d?ploiement du pipeline. */
+/** Routes du projet de départ utilisées pour vérifier le déploiement du pipeline. */
 @RestController
 @RequestMapping("/")
 public class HelloController {

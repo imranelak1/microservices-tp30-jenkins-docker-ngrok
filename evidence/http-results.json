@@ -1,0 +1,14 @@
+{
+  "/": {
+    "status": 200,
+    "body": "Hello from spring boot application :)"
+  },
+  "/user": {
+    "status": 200,
+    "body": "Users"
+  },
+  "/presentation": {
+    "status": 200,
+    "body": "presentation"
+  }
+}

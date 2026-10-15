@@ -1,0 +1,62 @@
+{
+  "number": 2,
+  "result": "SUCCESS",
+  "duration": 287448,
+  "actions": [
+    {
+      "causes": [
+        {
+          "_class": "com.cloudbees.jenkins.GitHubPushCause",
+          "shortDescription": "Started by GitHub push by imranelak1"
+        }
+      ]
+    },
+    {
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 2,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "e49bd7830b7829760dad138a9a03578e29218e24",
+            "branch": [
+              {
+                "SHA1": "e49bd7830b7829760dad138a9a03578e29218e24",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "e49bd7830b7829760dad138a9a03578e29218e24",
+            "branch": [
+              {
+                "SHA1": "e49bd7830b7829760dad138a9a03578e29218e24",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "e49bd7830b7829760dad138a9a03578e29218e24",
+        "branch": [
+          {
+            "SHA1": "e49bd7830b7829760dad138a9a03578e29218e24",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/imranelak1/microservices-tp30-jenkins-docker-ngrok.git"
+      ],
+      "scmName": ""
+    },
+    {
+      "failCount": 0,
+      "skipCount": 0,
+      "totalCount": 4,
+      "urlName": "testReport"
+    }
+  ],
+  "capturedAt": "2026-10-15T01:11:11.045Z"
+}

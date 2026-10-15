@@ -12,3 +12,4 @@
  Les traces d'exécution sont dans `evidence/` et les captures dans `screenshots/`.
 
  ![Exécution](screenshots/results.png)
+ ![Déclenchement GitHub](screenshots/webhook.png)
