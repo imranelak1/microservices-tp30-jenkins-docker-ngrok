@@ -1,0 +1,11 @@
+FROM maven:3.9.9-eclipse-temurin-17 AS build
+ WORKDIR /app
+ COPY pom.xml .
+ COPY src ./src
+ RUN --mount=type=cache,id=course7-maven,target=/root/.m2,sharing=locked mvn -B clean package -DskipTests
+ FROM eclipse-temurin:17-jre-alpine
+ RUN apk add --no-cache curl
+ WORKDIR /app
+ COPY --from=build /app/target/*.jar app.jar
+ EXPOSE 8282
+ ENTRYPOINT ["java","-jar","app.jar"]

@@ -1,0 +1,11 @@
+name: course7-tp30
+services:
+  application:
+    image: course7-tp30:latest
+    build: .
+    ports: ["127.0.0.1:18530:8282"]
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8282/actuator/health/readiness"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
